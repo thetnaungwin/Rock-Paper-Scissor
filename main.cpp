@@ -18,6 +18,8 @@ int main(){
     std::cout<<"Computer's choice : "<<show_choice(pcinput)<<std::endl;
     std::cout<<"\t\t\tGame status : "<<game_logic(user,pcinput)<<std::endl;
 
+    system("pause");
+
     return 0;
 }
 
